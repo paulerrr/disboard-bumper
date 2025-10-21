@@ -12,12 +12,17 @@ I am not liable for any accounts that get moderated by Discord due to the use of
 
 # Setup
 
-Open **.env** and configure:
-```
-TOKEN=
-BUMP_CHANNELS=
-DISCADIA_CHANNELS=
-```
+1. Copy the example environment file:
+   ```bash
+   cp .env.example .env
+   ```
+
+2. Open **.env** and configure your tokens and channels:
+   ```
+   TOKEN=your_token_here
+   BUMP_CHANNELS=your_channel_ids_here
+   DISCADIA_CHANNELS=your_channel_ids_here
+   ```
 
 ## Single Account Configuration
 
